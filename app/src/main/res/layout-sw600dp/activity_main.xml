@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marcianito_miprimer_proyecto_android"
+    android:clickable="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="296dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/titulo"
+        android:textColor="@color/colorTitulo"
+        android:textSize="@dimen/tamanoTitulo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064"
+        tools:layout_editor_absoluteX="157dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/boton"
+        android:textColor="@color/colorBoton"
+        android:textSize="@dimen/tamanoBoton"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+</android.support.constraint.ConstraintLayout>
